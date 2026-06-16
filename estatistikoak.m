@@ -170,10 +170,3 @@ xlabel('Kilometroak'); ylabel('Maiztasuna');
 grid on;
 
 T_km=T;
-%% 6. Lekualdaketa bakoitzaren kostuaren batez bestekoa eta desbideratze tipikoa eurotan.
-
-%% 7. Egunero lanera joaten ez diren langileen kopuruaren (absentismoa) batez bestekoa eta desbideratze tipikoa.
-
-%% 8. Lekualdatze bat hospitale jakin batera iristeko edo handik irteteko probabilitatea.
-
-%% 9. Lekualdaketa bat herri jakin batera iristeko edo handik irteteko probabilitatea.
