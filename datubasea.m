@@ -57,13 +57,8 @@ end
 %3. Urtea (2015 eta 2025 artean)
 urtea = randi([2015, 2025], [n, 1]);
 
-%4. Errebisio data:  'fecha_revision' 
-%????????????????
 
-%5. 'km_revision'
-%????????????????
-
-%6. Anbulantzia mota (soporte_vital o traslado_pacientes)
+%4. Anbulantzia mota (soporte_vital o traslado_pacientes)
 mota_posibleak = {'soporte_vital', 'traslado_pacientes'};
 mota = mota_posibleak(randi([1, 2], [n, 1]))';
 
@@ -382,8 +377,6 @@ for i = 1:height(zerbitzuak)
     end
 end
 
-% Gorde emaitzak
-%writetable(zerbitzuak, 'zerbitzuen_banaketa_osoa_bertsioa2.xlsx');
 
 %% ABSENTISMOAK
 rng(1);
